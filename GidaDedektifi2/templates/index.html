@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gıda Asistanı</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #reader { width: 100%; max-width: 500px; margin: 0 auto; border-radius: 15px; overflow: hidden; }
+        .madde-karti { background: white; border-left: 5px solid #0d6efd; margin-bottom: 10px; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: left;}
+        .madde-baslik { font-weight: bold; color: #0d6efd; text-transform: uppercase; }
+    </style>
+</head>
+<body class="bg-light text-center p-3">
+
+    <div class="container" style="max-width: 600px;">
+        <h2 class="mb-4">🍎 İçinde Ne Var?</h2>
+        
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <div id="reader"></div>
+                <div class="input-group mt-3">
+                    <input type="number" id="manuel-barkod" class="form-control" placeholder="Barkod No">
+                    <button class="btn btn-primary" onclick="manuelSorgula()">Sorgula</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="sonuc-alani" style="display: none;">
+            <h3 id="urun-adi" class="mb-3"></h3>
+            
+            <div id="madde-listesi"></div>
+            
+            <hr>
+            <small class="text-muted">İçindekiler (Özet): <span id="ham-icerik"></span></small>
+            <br><br>
+            <button onclick="location.reload()" class="btn btn-outline-dark">Yeni Tarama</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+
+    <script>
+        function barkodAnalizEt(barkodKodu) {
+            // Yükleniyor ekranı
+            document.getElementById('sonuc-alani').style.display = 'block';
+            document.getElementById('urun-adi').innerText = "Ürün İnceleniyor...";
+            document.getElementById('madde-listesi').innerHTML = '<div class="spinner-border text-primary"></div>';
+
+            fetch('/analiz/' + barkodKodu)
+                .then(response => response.json())
+                .then(data => {
+                    const listeDiv = document.getElementById('madde-listesi');
+                    listeDiv.innerHTML = ""; // Temizle
+                    
+                    document.getElementById('urun-adi').innerText = data.urun;
+                    document.getElementById('ham-icerik').innerText = data.ham_icerik || "Bulunamadı";
+
+                    if (data.durum === 'bulunamadi' || data.durum === 'hata') {
+                        listeDiv.innerHTML = `<div class="alert alert-warning">${data.mesaj}</div>`;
+                        return;
+                    }
+
+                    // Eğer sözlüğümüzdeki hiçbir madde bulunamadıysa
+                    if (data.analiz_sonucu.length === 0) {
+                        listeDiv.innerHTML = `<div class="alert alert-success">Tanımlı katkı maddesi bulunamadı veya doğal içerik.</div>`;
+                        return;
+                    }
+
+                    // Bulunan maddeleri kart olarak ekle
+                    data.analiz_sonucu.forEach(item => {
+                        const kart = `
+                            <div class="madde-karti">
+                                <div class="madde-baslik">${item.madde}</div>
+                                <div>${item.bilgi}</div>
+                            </div>
+                        `;
+                        listeDiv.innerHTML += kart;
+                    });
+                });
+        }
+
+        const html5QrCode = new Html5Qrcode("reader");
+        function onScanSuccess(decodedText) {
+            html5QrCode.stop();
+            barkodAnalizEt(decodedText);
+        }
+
+        Html5Qrcode.getCameras().then(devices => {
+            if (devices && devices.length) {
+                html5QrCode.start({ facingMode: "environment" }, { fps: 10, qrbox: { width: 250, height: 250 } }, onScanSuccess);
+            }
+        });
+
+        function manuelSorgula() {
+            const kod = document.getElementById('manuel-barkod').value;
+            if(kod) {
+                try { html5QrCode.stop(); } catch(e) {}
+                barkodAnalizEt(kod);
+            }
+        }
+    </script>
+</body>
+</html>
