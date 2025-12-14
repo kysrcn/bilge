@@ -38,8 +38,16 @@ def index():
 def analiz(barkod):
     url = f"https://world.openfoodfacts.org/api/v0/product/{barkod}.json"
     
+    headers = {
+        'User-Agent': 'GidaDedektifi - OgrenciProjesi - Version 1.0'
+    }
+    
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, headers=headers, timeout=20)
+        
+        if response.status_code != 200:
+             return jsonify({"durum": "hata", "mesaj": "Sunucuya bağlanılamadı."})
+
         data = response.json()
         
         if data.get('status') != 1:
@@ -48,33 +56,51 @@ def analiz(barkod):
         urun = data['product']
         urun_adi = urun.get('product_name', 'İsimsiz Ürün')
         
-        # Tüm dillerdeki içerikleri birleştirip küçük harfe çevir
+        # İçerik metinlerini al
         text_genel = urun.get('ingredients_text', '')
         text_tr = urun.get('ingredients_text_tr', '')
         text_en = urun.get('ingredients_text_en', '')
         text_de = urun.get('ingredients_text_de', '')
-        icerik_metni = (text_genel + " " + text_tr + " " + text_en + " " + text_de).lower()
+        
+        # Hepsini birleştir (Analiz için kullanılan ham metin)
+        ham_metin = (text_genel + " " + text_tr + " " + text_en + " " + text_de).lower()
+        
+        # Görsel veriler
+        resim_url = urun.get('image_url', '') 
+        nutri_score = urun.get('nutriscore_grade', '').upper()
 
-        # Sözlükteki maddeleri içerik metninde ara
+        # Sözlük taraması
         bulunanlar = []
-        for anahtar_kelime, aciklama in MADDELER_SOZLUGU.items():
-            if anahtar_kelime in icerik_metni:
-                # Aynı maddeyi (örn: e300 ve ascorbic acid) iki kere eklememek için basit bir kontrol yapılabilir
-                # Şimdilik hepsini ekliyoruz.
+        for anahtar_kelime, deger in MADDELER_SOZLUGU.items():
+            if anahtar_kelime in ham_metin:
+                if isinstance(deger, dict):
+                    aciklama_metni = deger.get("bilgi", "Bilgi yok")
+                    risk_puani = deger.get("risk", 0)
+                    kaynak_linki = deger.get("kaynak", "") # <--- YENİ EKLENEN
+                else:
+                    aciklama_metni = deger
+                    risk_puani = 0 
+                    kaynak_linki = "" # Eski formatta kaynak yok
+
                 bulunanlar.append({
-                    "madde": anahtar_kelime.upper(), # E300 gibi görünsün
-                    "bilgi": aciklama
+                    "madde": anahtar_kelime.upper(),
+                    "bilgi": aciklama_metni,
+                    "risk": risk_puani,
+                    "kaynak": kaynak_linki  # <--- Frontend'e gönderiyoruz
                 })
         
         return jsonify({
             "durum": "basarili",
             "urun": urun_adi,
+            "resim": resim_url,
+            "puan": nutri_score,
             "analiz_sonucu": bulunanlar,
-            "ham_icerik": icerik_metni[:150] + "..." # Kullanıcıya içeriğin başını da gösterelim
+            "ham_icerik": ham_metin  # <-- DEĞİŞİKLİK BURADA: Artık kesmiyoruz, hepsini gönderiyoruz.
         })
 
     except Exception as e:
         return jsonify({"durum": "hata", "mesaj": str(e)})
+
 
 if __name__ == '__main__':
     app.run(debug=True)

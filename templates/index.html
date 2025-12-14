@@ -32,7 +32,7 @@
             <div id="madde-listesi"></div>
             
             <hr>
-            <small class="text-muted">İçindekiler (Özet): <span id="ham-icerik"></span></small>
+            <small class="text-muted">İçindekiler: <span id="ham-icerik"></span></small>
             <br><br>
             <button onclick="location.reload()" class="btn btn-outline-dark">Yeni Tarama</button>
         </div>
@@ -69,10 +69,43 @@
 
                     // Bulunan maddeleri kart olarak ekle
                     data.analiz_sonucu.forEach(item => {
+                        
+                        let renkSinifi = "border-primary"; 
+                        let ikon = "ℹ️";
+
+                        if (item.risk === 3) {
+                            renkSinifi = "border-danger bg-danger bg-opacity-10"; 
+                            ikon = "⛔";
+                        } else if (item.risk === 2) {
+                            renkSinifi = "border-warning bg-warning bg-opacity-10"; 
+                            ikon = "⚠️";
+                        } else if (item.risk === 1) {
+                            renkSinifi = "border-success bg-success bg-opacity-10"; 
+                            ikon = "✅";
+                        }
+
+                        // KAYNAK BUTONU HTML'İ (Varsa oluştur, yoksa boş bırak)
+                        let kaynakButonu = "";
+                        if (item.kaynak && item.kaynak !== "") {
+                            kaynakButonu = `
+                                <div class="text-end mt-2">
+                                    <a href="${item.kaynak}" target="_blank" class="text-decoration-none small text-muted">
+                                        🔗 Kaynak
+                                    </a>
+                                </div>
+                            `;
+                        }
+
+                        // Kart HTML'ini birleştir
                         const kart = `
-                            <div class="madde-karti">
-                                <div class="madde-baslik">${item.madde}</div>
-                                <div>${item.bilgi}</div>
+                            <div class="madde-karti border-start border-5 ${renkSinifi} p-3 mb-2 rounded shadow-sm bg-white">
+                                <div class="fw-bold text-dark">
+                                    ${ikon} ${item.madde}
+                                </div>
+                                <div class="text-muted small mt-1">
+                                    ${item.bilgi}
+                                </div>
+                                ${kaynakButonu} 
                             </div>
                         `;
                         listeDiv.innerHTML += kart;
@@ -99,8 +132,15 @@
                 barkodAnalizEt(kod);
             }
         }
-    </script>
+	    </script>
+<footer class="mt-5 mb-3 text-muted text-center" style="font-size: 0.8rem;">
+    <p>
+        Bu proje eğitim amaçlıdır.<br>
+        Ürün verileri <a href="https://world.openfoodfacts.org/" target="_blank">Open Food Facts</a> 
+        katkılarıyla sağlanmaktadır.
+        <br>
+        <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank">ODbL Lisansı</a> ile lisanslanmıştır.
+    </p>
+</footer>
 </body>
-
 </html>
-
