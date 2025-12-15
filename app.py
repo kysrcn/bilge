@@ -2,6 +2,7 @@ from flask import Flask, render_template, jsonify
 import requests
 import json  # <--- YENİ EKLENEN: Json kütüphanesi
 import os
+import re
 
 app = Flask(__name__)
 
@@ -72,15 +73,18 @@ def analiz(barkod):
         # Sözlük taraması
         bulunanlar = []
         for anahtar_kelime, deger in MADDELER_SOZLUGU.items():
-            if anahtar_kelime in ham_metin:
+            pattern = r'\b' + re.escape(anahtar_kelime) + r'\b'
+            
+            if re.search(pattern, ham_metin):
+                
                 if isinstance(deger, dict):
                     aciklama_metni = deger.get("bilgi", "Bilgi yok")
                     risk_puani = deger.get("risk", 0)
-                    kaynak_linki = deger.get("kaynak", "") # <--- YENİ EKLENEN
+                    kaynak_linki = deger.get("kaynak", "")
                 else:
                     aciklama_metni = deger
                     risk_puani = 0 
-                    kaynak_linki = "" # Eski formatta kaynak yok
+                    kaynak_linki = ""
 
                 bulunanlar.append({
                     "madde": anahtar_kelime.upper(),
