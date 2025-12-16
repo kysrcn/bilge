@@ -1,11 +1,16 @@
 {
+  "adipik asit": {
+    "bilgi": "Adipik Asit (E355): Ekşilik düzenleyici ve jel yapısına destek için kullanılabilir. İzinli kullanımda genelde güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=355"
+  },
   "ascorbic acid": {
     "bilgi": "Askorbik Asit: C Vitaminidir. Gıdayı korur ve raf ömrünü doğal yolla uzatır.",
     "risk": 1,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4087"
   },
   "aspartam": {
-    "bilgi": "Yapay tatlandırıcı. Şekerden 200 kat daha tatlıdır. WHO (IARC) tarafından 'muhtemel kanserojen' (Grup 2B) olarak sınıflandırılmıştır. Fenilketonürisi (PKU) olanlar için uygun değildir.",
+    "bilgi": "Yapay tatlandırıcı (E951). Şekerden 200 kat tatlıdır. WHO (IARC) tarafından 'muhtemel kanserojen' (Grup 2B) olarak sınıflandırılmıştır. Fenilketonürisi (PKU) olanlar için uygun değildir.",
     "risk": 3,
     "kaynak": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results"
   },
@@ -29,40 +34,130 @@
     "risk": 2,
     "kaynak": "https://pdf.ilacprospektusu.com/12075-polifleks-yuzde-20-desktroz-sudaki-solusyonucam-sise-kt.pdf"
   },
+  "e100": {
+    "bilgi": "Kurkumin (Zerdeçal): Doğal sarı-turuncu renklendiricidir. Zerdeçal kökünden elde edilir, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.food-info.net/uk/e/e100.htm"
+  },
   "e101": {
     "bilgi": "Riboflavin (B2 Vitamini): Sarı renk verici vitamin. Besleyicidir ve toksisite riski yoktur.",
     "risk": 1,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/3357"
   },
   "e102": {
-    "bilgi": "Tartrazin (FD&C Yellow No. 5): Sarı renk veren sentetik bir boyadır. Astım ve aspirin alerjisi olanlarda reaksiyonlara neden olabilir, çocuklarda hiperaktivite ile ilişkilidir.",
+    "bilgi": "Tartrazin: Sarı renk veren sentetik bir boyadır. Astım ve aspirin alerjisi olanlarda reaksiyonlara neden olabilir, çocuklarda hiperaktivite ile ilişkilidir.",
     "risk": 3,
     "kaynak": "https://www.food.gov.uk/safety-hygiene/food-additives"
   },
+  "e104": {
+    "bilgi": "Kinolin Sarısı (Quinoline Yellow): Sentetik sarı-yeşil gıda boyasıdır. Çocuklarda hiperaktiviteyi tetikleyebileceği için bazı ülkelerde uyarı etiketi gerektirir.",
+    "risk": 3,
+    "kaynak": "https://proe.info/en/additives/e104"
+  },
+  "e105": {
+    "bilgi": "Fast Yellow AB: Sentetik sarı boyadır. Güvenlik endişeleri nedeniyle birçok ülkede gıdalarda kullanımı yasaklanmıştır.",
+    "risk": 3,
+    "kaynak": "https://proe.info/en/additives/e105"
+  },
   "e110": {
-    "bilgi": "Sunset Yellow FCF (FD&C Yellow No. 6): Sentetik turuncu boya. 'Southampton Altılısı' grubundadır, çocuklarda davranış bozuklukları riski taşır.",
+    "bilgi": "Sunset Yellow FCF: Sentetik turuncu boya. 'Southampton Altılısı' grubundadır, çocuklarda davranış bozuklukları riski taşır.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/3765"
   },
+  "e111": {
+    "bilgi": "Orange GGN: Sentetik turuncu boya. Toksikolojik riskleri nedeniyle gıda kullanımından kaldırılmıştır.",
+    "risk": 3,
+    "kaynak": "https://foodcom.pl/en/term-e/e111/"
+  },
   "e120": {
-    "bilgi": "Karmen (Karmin): Kırmızı renk verir. Ezilmiş bir böcek türünden (Koşinil) elde edilir. Doğaldır ama hayvansal kökenlidir ve alerjik olabilir.",
+    "bilgi": "Karmen (Karmin): Kırmızı renk verir. Ezilmiş bir böcek türünden (Koşinil) elde edilir. Doğaldır ama hayvansal kökenlidir ve alerjik reaksiyon yapabilir.",
     "risk": 2,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4288"
   },
-  "e129": {
-    "bilgi": "Allura Red AC (FD&C Red No. 40): Sentetik kırmızı boya. Çocuklarda dikkat eksikliği ve hiperaktiviteyi tetiklediği için Avrupa'da uyarı etiketi zorunludur.",
+  "e121": {
+    "bilgi": "Citrus Red 2: Sentetik kırmızı boya. Kanserojen şüphesi nedeniyle kullanımı çok kısıtlıdır veya yasaktır.",
     "risk": 3,
-    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1327"
+    "kaynak": "https://proe.info/en/additives/e121"
+  },
+  "e122": {
+    "bilgi": "Azorubin (Karmoisin): Sentetik kırmızı boya. Astım ve aspirin hassasiyeti olanlarda reaksiyon riskini artırabilir.",
+    "risk": 2,
+    "kaynak": "https://proe.info/en/additives/e122"
+  },
+  "e123": {
+    "bilgi": "Amarant: Sentetik kırmızı boya. Kanser riski şüphesiyle ABD'de yasaklanmış, AB'de kullanımı kısıtlanmıştır.",
+    "risk": 3,
+    "kaynak": "https://eatoravoid.com/additive/amaranth/"
+  },
+  "e124": {
+    "bilgi": "Ponceau 4R: Sentetik kırmızı boya. Hiperaktivite ile ilişkilendirilmiştir, alerjik reaksiyon riski taşır.",
+    "risk": 2,
+    "kaynak": "https://www.food-info.net/uk/e/e124.htm"
+  },
+  "e125": {
+    "bilgi": "Scarlet GN: Sentetik kırmızı boya. Genotoksisite şüphesiyle gıdalarda kullanımı genelde yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.food-info.net/uk/e/e124.htm"
+  },
+  "e126": {
+    "bilgi": "Ponceau 6R: Onaylı bir gıda katkı maddesi değildir. Güvenlik verileri yetersiz veya olumsuzdur.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/3/W6601E/w6601e0a.htm"
+  },
+  "e127": {
+    "bilgi": "Eritrosin: İyot içeren kırmızı boya. Tiroid fonksiyonlarını etkileyebileceği için kullanımı ciddi şekilde sınırlandırılmıştır (genelde sadece kiraz şekerlemelerinde).",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
+  },
+  "e128": {
+    "bilgi": "Red 2G: Kanserojen anilin türevlerine dönüşebildiği için AB'de yasaklanmıştır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/263"
+  },
+  "e129": {
+    "bilgi": "Allura Red AC: Sentetik kırmızı boya. Çocuklarda dikkat eksikliği ve hiperaktiviteyi tetiklediği için Avrupa'da uyarı etiketi zorunludur.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4007"
+  },
+  "e130": {
+    "bilgi": "Indanthrene Blue: Gıda katkı maddesi olarak kullanımı onaylanmamıştır.",
+    "risk": 0,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=0"
+  },
+  "e131": {
+    "bilgi": "Patent Blue V: Sentetik mavi boya. Nadir de olsa anafilaktik (şiddetli alerjik) reaksiyonlara neden olduğu raporlanmıştır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2818"
   },
   "e132": {
-    "bilgi": "İndigo Karmin: Sentetik mavi boya. Yüksek dozlarda bulantı ve tansiyon değişimlerine neden olabilir.",
+    "bilgi": "İndigo Karmin: Sentetik mavi boya. Yüksek dozlarda bulantı ve tansiyon değişimlerine neden olabilir. İzinli sınırlarda güvenli kabul edilir.",
     "risk": 2,
-    "kaynak": "https://www.rupahealth.com/post/indigo-carmine-blue-2-dye-safety-uses-and-side-effects"
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/3768"
   },
   "e133": {
-    "bilgi": "Brilliant Blue FCF (FD&C Blue No. 1): Sentetik mavi boya. Genellikle güvenli kabul edilse de, sindirilmeden atılır ve hassas kişilerde alerjik reaksiyon riski taşır.",
+    "bilgi": "Brilliant Blue FCF: Sentetik mavi boya. Genellikle güvenli kabul edilse de, sindirilmeden atılır ve hassas kişilerde alerjik reaksiyon riski taşır.",
     "risk": 2,
-    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/443"
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/3769"
+  },
+  "e134": {
+    "bilgi": "Onaylı bir gıda katkı maddesi kodu değildir.",
+    "risk": 0,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/index.html"
+  },
+  "e140": {
+    "bilgi": "Klorofiller: Bitkilerden elde edilen doğal yeşil pigmentlerdir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/303"
+  },
+  "e141": {
+    "bilgi": "Bakır Klorofilinler: Klorofilin daha stabil hale getirilmiş bakır kompleksidir. Güvenli kabul edilir.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/303"
+  },
+  "e142": {
+    "bilgi": "Green S: Sentetik yeşil boya. Alerjik potansiyeli nedeniyle kullanımı kısıtlanmıştır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
   },
   "e1422": {
     "bilgi": "Asetillenmiş Distarç Adipat: Modifiye nişasta. Yoğurt ve soslarda kıvamı korur. Sindirimi doğal nişastadan biraz daha zordur ancak güvenlidir.",
@@ -70,37 +165,132 @@
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1739"
   },
   "e143": {
-    "bilgi": "Fast Green FCF (FD&C Green No. 3): Yeşil renklendiricidir. İzinli ürünlerde sınırlı kullanım koşullarıyla yer alır; hassas bünyelerde dikkatli tüketilir.",
-    "risk": 2,
-    "kaynak": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-74/subpart-A/section-74.203"
+    "bilgi": "Fast Green FCF: Sentetik yeşil boya. AB'de gıdalarda kullanımı genelde yasaktır, tümör oluşturma riski şüphesi vardır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/3/W6601E/w6601e0a.htm"
   },
   "e150a": {
-    "bilgi": "Karamel rengi: Şekerlerin ısıtılmasıyla oluşan kahverengi renklendiriciler grubudur. Genelde güvenli kabul edilir; çok sık tüketimde toplam katkı yükü artar.",
+    "bilgi": "Sade Karamel: Şekerin ısıtılmasıyla elde edilir. En doğal ve en düşük riskli karamel türüdür.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+  },
+  "e150b": {
+    "bilgi": "Sülfitli Karamel: Üretimde sülfit kullanılır. Sülfit hassasiyeti olanlar dikkat etmelidir.",
     "risk": 2,
-    "kaynak": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.85"
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+  },
+  "e150c": {
+    "bilgi": "Amonyaklı Karamel: Bira ve fırıncılıkta kullanılır. İmmün sistemi etkileyebilecek yan ürünler (4-MEI) içerebilir.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
   },
   "e150d": {
-    "bilgi": "Karamel (Amonyum Sülfit): Kola ve içeceklere o siyah/kahverengi rengini veren maddedir. Yüksek tüketimi önerilmez.",
-    "risk": 2,
-    "kaynak": "https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/j.efsa.2011.2004"
+    "bilgi": "Amonyum Sülfitli Karamel: Kolalı içeceklere rengini verir. Yüksek tüketimi önerilmez, 4-MEI riski taşır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+  },
+  "e151": {
+    "bilgi": "Brilliant Black BN: Sentetik siyah boya. Alerjik reaksiyon riski nedeniyle bazı ülkelerde kısıtlıdır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
+  },
+  "e152": {
+    "bilgi": "Karbon Siyahı (Carbon Black): AB'de gıdalarda kullanımı yasaktır (E153 ile karıştırılmamalıdır).",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=152"
   },
   "e1520": {
-    "bilgi": "Propilen Glikol: Nem tutucu ve çözücü. Gıdalarda düşük dozda güvenlidir ancak çok yüksek dozlarda merkezi sinir sistemi etkileri görülebilir.",
+    "bilgi": "Propilen Glikol: Nem tutucu ve çözücü. Gıdalarda düşük dozda güvenlidir ancak çok yüksek dozlarda sinir sistemi etkileri görülebilir.",
     "risk": 2,
     "kaynak": "https://www.healthline.com/nutrition/propylene-glycol"
   },
+  "e153": {
+    "bilgi": "Bitkisel Karbon: Doğal kaynaklı siyah renklendirici (aktif kömür). Güvenli kabul edilir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/190"
+  },
+  "e154": {
+    "bilgi": "Brown FK: Sentetik kahverengi boya. AB'de gıda kullanımı yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/3/W6601E/w6601e0a.htm"
+  },
+  "e155": {
+    "bilgi": "Brown HT: Çikolata aromalı ürünlerde kullanılan sentetik boya. Alerjik reaksiyon riski taşır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
+  },
+  "e160a": {
+    "bilgi": "Beta-karoten: Havuçta bulunan doğal turuncu pigment ve A vitamini kaynağıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/200"
+  },
+  "e160b": {
+    "bilgi": "Annatto: Bitkisel kaynaklı doğal renklendirici. Nadiren alerji yapabilir.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/102"
+  },
+  "e160c": {
+    "bilgi": "Paprika Ekstraktı: Kırmızı biberden elde edilen doğal renklendiricidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=160c"
+  },
+  "e160d": {
+    "bilgi": "Likopen: Domatese kırmızı rengini veren güçlü bir antioksidandır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/200"
+  },
+  "e161": {
+    "bilgi": "Ksantofiller (Lutein vb.): Doğal sarı-turuncu pigmentlerdir. Göz sağlığı için faydalıdır, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/314"
+  },
+  "e162": {
+    "bilgi": "Pancar Kırmızısı (Betanin): Pancardan elde edilen doğal boyadır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/557"
+  },
+  "e163": {
+    "bilgi": "Antosiyaninler: Meyve ve sebzelerde (üzüm, lahana) bulunan doğal mor-kırmızı pigmentlerdir. Antioksidandır, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/314"
+  },
   "e170": {
-    "bilgi": "Kalsiyum Karbonat: Doğal mineral (kireçtaşı). Renk açıcı ve kalsiyum kaynağı olarak kullanılır. Güvenlidir.",
+    "bilgi": "Kalsiyum Karbonat: Doğal mineral (kireçtaşı). Renk açıcı ve kalsiyum kaynağıdır. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/8106"
   },
   "e171": {
-    "bilgi": "Titanyum Dioksit: Beyazlatıcı ve parlatıcı pigment. Genotoksik (DNA hasarı) potansiyeli nedeniyle Avrupa Birliği'nde gıda katkısı olarak tamamen yasaklanmıştır.",
+    "bilgi": "Titanyum Dioksit: Beyazlatıcı pigment. Genotoksik (DNA hasarı) potansiyeli nedeniyle AB'de gıda katkısı olarak yasaklanmıştır.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive"
   },
+  "e172": {
+    "bilgi": "Demir Oksitler: Mineral bazlı doğal renklendiricilerdir (sarı, kırmızı, siyah). Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=172"
+  },
+  "e173": {
+    "bilgi": "Alüminyum: Metalik renklendirici (pasta süsleri). Alüminyum birikimi riski nedeniyle kullanımı kısıtlıdır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/411"
+  },
+  "e174": {
+    "bilgi": "Gümüş: Dekoratif metalik renklendirici. Sadece süslemelerde çok az miktarda kullanılır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=174"
+  },
+  "e175": {
+    "bilgi": "Altın: Dekoratif amaçlı kullanılır. İnert bir metaldir ancak kullanımı çok sınırlıdır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=175"
+  },
+  "e180": {
+    "bilgi": "Litholrubine BK: Sadece peynir kabuklarında izin verilen sentetik kırmızı boyadır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
+  },
   "e200": {
-    "bilgi": "Sorbik Asit: Gıdaların küflenmesini önleyen bir koruyucudur. Hassas kişilerde alerjik deri reaksiyonları yapabiliyor.",
+    "bilgi": "Sorbik Asit: Gıdaların küflenmesini önleyen bir koruyucudur. Hassas kişilerde alerjik deri reaksiyonları yapabilir.",
     "risk": 2,
     "kaynak": "https://www.healthline.com/health/food-nutrition/what-is-sorbic-acid"
   },
@@ -110,152 +300,152 @@
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4144"
   },
   "e203": {
-    "bilgi": "Kalsiyum sorbat: Sorbik asidin kalsiyum tuzudur. Unlu mamuller, peynir ve konservelerde küf/maya önleyici olarak kullanılır.",
+    "bilgi": "Kalsiyum Sorbat: Sorbik asidin kalsiyum tuzudur. Koruyucu olarak kullanılır, genotoksik veri eksikliği nedeniyle AB'de kullanımı askıya alınmıştır.",
     "risk": 2,
     "kaynak": "https://openknowledge.fao.org/home"
   },
   "e209": {
-    "bilgi": "Heptylparaben: Bir paraben esteridir, antimikrobiyal özellik gösterir.",
+    "bilgi": "Heptil Paraben: Antimikrobiyal koruyucudur. Bazı ülkelerde kullanımı kısıtlıdır.",
     "risk": 2,
     "kaynak": "https://pubmed.ncbi.nlm.nih.gov/38423749/"
   },
   "e210": {
-    "bilgi": "Benzoik asit: Gıdalarda maya, küf ve bakterilerin büyümesini engelleyen yaygın bir koruyucudur. Hassas kişilerde tahriş yapabilir.",
+    "bilgi": "Benzoik Asit: Maya ve küf önleyicidir. Hassas bünyelerde alerjik reaksiyonlara neden olabilir.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Benzoic-acid"
   },
   "e211": {
-    "bilgi": "Sodyum Benzoat: İçeceklerin bozulmasını önler. C vitamini ile birlikte ısı/ışık altında kanserojen benzen oluşumuna yol açabilir.",
+    "bilgi": "Sodyum Benzoat: Asitli içeceklerde koruyucudur. C vitamini ile birleşince kanserojen benzen oluşturma riski taşır.",
     "risk": 3,
     "kaynak": "https://www.sciencedirect.com/science/article/pii/S2468227620303483"
   },
   "e212": {
-    "bilgi": "Potasyum benzoat: Benzoik asidin potasyum tuzudur. Asitli içecekler ve soslarda mikrobiyal büyümeyi engellemek için kullanılır.",
+    "bilgi": "Potasyum Benzoat: Sodyum benzoat alternatifi koruyucudur. Benzer risk profiline sahiptir.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-Benzoate"
   },
   "e213": {
-    "bilgi": "Kalsiyum benzoat: Asitli gıdalarda (içecekler, turşular) mikrobiyal büyümeyi engelleyen bir koruyucudur.",
+    "bilgi": "Kalsiyum Benzoat: Koruyucu olarak kullanılır. Benzoat grubunun risklerini taşır.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-benzoate"
   },
   "e214": {
-    "bilgi": "Etil paraben: Gıdalarda küf ve maya gelişimini önleyen paraben grubu bir koruyucudur.",
+    "bilgi": "Etil Paraben: Paraben grubu koruyucudur. Hormon bozucu (endokrin) etkileri tartışmalıdır.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Ethyl-paraben"
   },
   "e215": {
-    "bilgi": "Sodyum etil paraben: E214'ün sodyum tuzu formudur, suda daha iyi çözünür. Koruyucu olarak kullanılır.",
+    "bilgi": "Sodyum Etil Paraben: E214'ün tuzudur. Koruyucu olarak kullanılır.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-ethyl-paraben"
   },
   "e216": {
-    "bilgi": "Propil paraben: Özellikle yağlı ürünlerde etkili olan paraben grubu bir koruyucudur. Endokrin bozucu potansiyeli nedeniyle bazı ülkelerde kısıtlıdır.",
+    "bilgi": "Propil Paraben: Yağlı ürünlerde etkili koruyucudur. Endokrin bozucu potansiyeli nedeniyle AB'de gıdalarda yasaklanmıştır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Propyl-paraben"
   },
   "e217": {
-    "bilgi": "Sodyum propil paraben: Propil parabenin sodyum tuzudur. Gıdalarda koruyucu olarak kullanılır.",
+    "bilgi": "Sodyum Propil Paraben: Propil parabenin tuzudur. Sağlık riskleri nedeniyle AB'de yasaklanmıştır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-propyl-paraben"
   },
   "e218": {
-    "bilgi": "Metil paraben: Paraben ailesinin en sık kullanılan üyesidir. Gıda ve kozmetikte koruyucu olarak kullanılır.",
+    "bilgi": "Metil Paraben: Kozmetik ve gıdada yaygın kullanılan koruyucudur. Alerjik reaksiyon yapabilir.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Methyl-paraben"
   },
   "e219": {
-    "bilgi": "Sodyum metil paraben: Metil parabenin tuzudur. Sulu ürünlerde mikrobiyal büyümeyi önlemek için kullanılır.",
+    "bilgi": "Sodyum Metil Paraben: Metil parabenin tuzudur. Suda çözünen ürünlerde koruyucu olarak kullanılır.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Methylparaben-Sodium"
   },
   "e220": {
-    "bilgi": "Kükürt Dioksit: Kurutulmuş meyve ve şaraplarda yaygındır. EFSA, nörotoksik etkileri nedeniyle güvenli alım limitini (ADI) geri çekmiş ve güvenlik endişesi bildirmiştir.",
+    "bilgi": "Kükürt Dioksit: Kurutulmuş meyve ve şaraplarda yaygındır. EFSA, nörotoksik etkileri nedeniyle güvenlik endişesi bildirmiştir.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/news/sulfites-safety-concern-high-consumers-data-lacking"
   },
   "e220-e228": {
-    "bilgi": "Sülfitler ve Kükürt Dioksit Grubu: Genel sülfit grubu. Astım hastalarında ve hassas bünyelerde ciddi reaksiyon riski taşırlar.",
+    "bilgi": "Sülfitler Grubu: Genel olarak astım hastalarında ve hassas kişilerde ciddi solunum reaksiyonlarına yol açabilir.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/news/sulfites-safety-concern-high-consumers-data-lacking"
   },
   "e221": {
-    "bilgi": "Sodyum sülfit: Kurutulmuş meyve ve patates ürünlerinde kullanılan koruyucu ve antioksidandır. Sülfit hassasiyeti olanlar için risklidir.",
+    "bilgi": "Sodyum Sülfit: Kurutulmuş meyve ve patateslerde kararmayı önler. Sülfit hassasiyeti riski taşır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-sulfite"
   },
   "e222": {
-    "bilgi": "Sodyum bisülfit: Koruyucu ve renk bozulmasını önleyici. Sülfite duyarlı kişilerde astım atağı ve alerjik reaksiyonlara neden olabilir.",
+    "bilgi": "Sodyum Bisülfit: Koruyucu ve ağartıcıdır. Sülfit grubuna dahildir, alerjik reaksiyon riski yüksektir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-bisulfite"
   },
   "e223": {
-    "bilgi": "Sodyum metabisülfit: Kurutulmuş meyve ve deniz ürünlerinde yaygın kullanılan güçlü bir koruyucu ve antioksidandır.",
+    "bilgi": "Sodyum Metabisülfit: Güçlü bir antimikrobiyal ve antioksidandır. Hassas kişilerde solunum sorunları yaratabilir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-metabisulfite"
   },
   "e224": {
-    "bilgi": "Potasyum metabisülfit: Şarap ve bira yapımında yaygın kullanılan koruyucu ve antioksidandır.",
+    "bilgi": "Potasyum Metabisülfit: Şarapçılıkta yaygın kullanılan koruyucudur. Sülfit içerir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-metabisulfite"
   },
   "e225": {
-    "bilgi": "Potasyum sülfit: Şarap ve meyve sularında kullanılan koruyucu ve antioksidandır.",
+    "bilgi": "Potasyum Sülfit: Koruyucu ve antioksidandır. Sülfit grubu risklerini taşır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-sulfite"
   },
   "e226": {
-    "bilgi": "Kalsiyum sülfit: İşlenmiş gıdalarda koruyucu ve renk koruyucu olarak kullanılır.",
+    "bilgi": "Kalsiyum Sülfit: Koruyucu olarak kullanılır. Sülfit duyarlılığı olanlar kaçınmalıdır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-sulfite"
   },
   "e227": {
-    "bilgi": "Kalsiyum hidrojen sülfit: Koruyucu madde olarak kullanılan bir sülfit türevidir.",
+    "bilgi": "Kalsiyum Hidrojen Sülfit: Koruyucu ve sıkılaştırıcıdır. Sülfit içerir.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov"
   },
   "e228": {
-    "bilgi": "Potasyum hidrojen sülfit: Asidik gıdalarda ve şarapta oksidasyonu ve mikrobiyal bozulmayı önleyen sülfit grubu koruyucudur.",
+    "bilgi": "Potasyum Hidrojen Sülfit: Asidik gıdalarda kullanılan sülfit grubu koruyucudur.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
   },
   "e229": {
-    "bilgi": "Kalsiyum kazeinat: Sütten elde edilen proteinin kalsiyum tuzudur. Bağlayıcı veya protein kaynağı olarak kullanılır.",
+    "bilgi": "Kalsiyum Kazeinat: Süt proteini türevidir. Süt alerjisi olanlar için risklidir.",
     "risk": 2,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-caseinate"
   },
   "e230": {
-    "bilgi": "Bifenil: Narenciye yüzeylerinde küf önleyici olarak kullanılan sentetik koruyucu. Toksik potansiyeli nedeniyle kullanımı kısıtlanmıştır.",
+    "bilgi": "Bifenil: Narenciye kabuklarında küf önleyici. Toksik potansiyeli nedeniyle kullanımı büyük ölçüde kısıtlanmıştır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Biphenyl"
   },
   "e231": {
-    "bilgi": "Orto-fenilfenol: Narenciye yüzeylerinde mantar oluşumunu engelleyen bir pestisit/koruyucudur.",
+    "bilgi": "Orto-fenilfenol: Meyve kabuklarında kullanılan antifungal ajandır. Yüksek dozda tahriş edicidir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/o-Phenylphenol"
   },
   "e232": {
-    "bilgi": "Sodyum orto-fenilfenat: E231'in sodyum tuzudur. Yüksek dozlarda toksik ve tahriş edici olabilir, potansiyel riskleri nedeniyle kullanımı sınırlıdır.",
+    "bilgi": "Sodyum Orto-fenilfenat: E231'in tuzudur. Potansiyel sağlık riskleri nedeniyle kullanımı sınırlıdır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-o-phenylphenate"
   },
   "e233": {
-    "bilgi": "Tiabendazol: Muz ve narenciye kabuklarında kullanılan bir antifungaldir. Yüksek dozlarda toksisite riski taşır.",
+    "bilgi": "Tiabendazol: Narenciye ve muz kabuklarında küf önleyici pestisit/koruyucudur. Yıkanmadan tüketilmemelidir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Thiabendazole"
   },
   "e234": {
-    "bilgi": "Nisin: Peynir ve etlerde kullanılan, doğal bir antibakteriyel peptittir. Güvenli kabul edilir.",
+    "bilgi": "Nisin: Doğal bir antibiyotiktir (peptit). Peynirlerde kullanılır, güvenli kabul edilir.",
     "risk": 1,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
   },
   "e240": {
-    "bilgi": "Formaldehit (veya Kloramfenikol): Ciddi sağlık riskleri ve kanserojen etkisi nedeniyle gıda katkı maddesi olarak kullanımı yasaktır/terk edilmiştir.",
+    "bilgi": "Formaldehit: Kanserojendir. Gıda katkı maddesi olarak kullanımı yasaktır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Chloramphenicol"
   },
   "e249": {
-    "bilgi": "Potasyum nitrit: Et ürünlerinde koruyucu ve renk sabitleyicidir. Nitrozamin oluşturma riski nedeniyle dikkatli tüketilmelidir.",
+    "bilgi": "Potasyum Nitrit: Et ürünlerinde koruyucu. Kanserojen nitrozamin oluşumu riski vardır.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-nitrite"
   },
@@ -265,82 +455,82 @@
     "kaynak": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
   },
   "e251": {
-    "bilgi": "Sodyum Nitrat: Et ürünlerinde kürleme ajanıdır. Nitrit ve nitrozamin zinciri nedeniyle sık tüketimde riskli kabul edilir.",
+    "bilgi": "Sodyum Nitrat: Et kürlemede kullanılır. Vücutta nitrite dönüşerek risk oluşturabilir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-nitrate"
   },
   "e252": {
-    "bilgi": "Potasyum nitrat: Sucuk, jambon gibi ürünlerde koruyucu ve renk vericidir. Sağlık riskleri sodyum nitrat ile benzerdir.",
+    "bilgi": "Potasyum Nitrat: Şarküteri ürünlerinde koruyucudur. Sodyum nitrat ile benzer riskleri taşır.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4144"
   },
   "e260": {
-    "bilgi": "Asetik asit: Sirkenin ana bileşenidir. Doğal koruyucu ve aroma vericidir, güvenlidir.",
+    "bilgi": "Asetik Asit: Sirkenin ana maddesidir. Doğal koruyucu ve aroma vericidir, güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid"
   },
   "e261": {
-    "bilgi": "Potasyum asetat: Sirke türevi bir asitlik düzenleyici ve koruyucudur. Güvenlidir.",
+    "bilgi": "Potasyum Asetat: Asitlik düzenleyici ve koruyucudur. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-acetate"
   },
   "e262": {
-    "bilgi": "Sodyum asetat: Sirke kökenli asitlik düzenleyici ve koruyucudur (örneğin cipslerde sirke tadı verir).",
+    "bilgi": "Sodyum Asetat: Cipslerde sirke aroması veren maddedir. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate"
   },
   "e263": {
-    "bilgi": "Kalsiyum asetat: Asitlik düzenleyici ve küf önleyici olarak kullanılır. Güvenlidir.",
+    "bilgi": "Kalsiyum Asetat: Ekmekte küf önleyici ve kalsiyum kaynağı olarak kullanılır. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-acetate"
   },
   "e264": {
-    "bilgi": "Amonyum asetat: Asitlik düzenleyici ve tamponlayıcıdır. Gıda kullanımında güvenlidir.",
+    "bilgi": "Amonyum Asetat: Asitlik düzenleyicidir. Güvenli kabul edilir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Ammonium-acetate"
   },
   "e265": {
-    "bilgi": "Dehidroasetik asit: Koruyucu ve antioksidandır. Mikroorganizma gelişimini yavaşlatır.",
+    "bilgi": "Dehidroasetik Asit: Koruyucudur. Bazı ülkelerde kullanımı kısıtlıdır.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-Lactate"
   },
   "e266": {
-    "bilgi": "Sodyum dehidroasetat: E265'in türevi, koruyucu ve stabilizatör olarak kullanılır.",
+    "bilgi": "Sodyum Dehidroasetat: Koruyucudur.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-lactate"
   },
   "e270": {
-    "bilgi": "Laktik asit: Süt ve fermente ürünlerde doğal oluşan, güvenli bir asitlik düzenleyicidir.",
+    "bilgi": "Laktik Asit: Süt asidi. Fermente ürünlerde doğal bulunur, güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Lactic-acid"
   },
   "e280": {
-    "bilgi": "Propiyonik asit: Ekmek ve unlu mamullerde küf önleyici doğal organik asittir. Vücutta metabolize edilir, güvenlidir.",
+    "bilgi": "Propiyonik Asit: Peynir ve ekmekte doğal bulunan küf önleyici asittir. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Propionic-acid"
   },
   "e281": {
-    "bilgi": "Sodyum propiyonat: Unlu mamullerde küf koruyucusu olarak kullanılır. Güvenlidir.",
+    "bilgi": "Sodyum Propiyonat: Unlu mamullerde küf koruyucusudur. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-propionate"
   },
   "e282": {
-    "bilgi": "Kalsiyum Propiyonat: Ekmeklerde küf önleyicidir. Bazı çalışmalar insülin direncini tetikleyebileceğini ve çocuklarda huzursuzluğa yol açabileceğini öne sürmektedir.",
+    "bilgi": "Kalsiyum Propiyonat: Ekmeklerde en yaygın küf önleyicidir. Bazı çalışmalar insülin direnci ve davranış değişiklikleri ile ilişkilendirmiştir.",
     "risk": 3,
     "kaynak": "https://www.healthline.com/nutrition/calcium-propionate"
   },
   "e283": {
-    "bilgi": "Potasyum propiyonat: Ekmeklerde kullanılan küf önleyicidir. Güvenli kabul edilir.",
+    "bilgi": "Potasyum Propiyonat: Ekmeklerde koruyucudur. Güvenli kabul edilir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Potassium-propionate"
   },
   "e284": {
-    "bilgi": "Borik asit: Havyarda koruyucu olarak kullanımı sınırlıdır. Toksik birikim riski nedeniyle genel gıdalarda yasaktır.",
+    "bilgi": "Borik Asit: Toksik birikim riski nedeniyle sadece havyar gibi çok kısıtlı ürünlerde izin verilir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Boric-acid"
   },
   "e285": {
-    "bilgi": "Sodyum tetraborat (Boraks): Havyar dışındaki gıdalarda kullanımı yasaktır, toksisite riski yüksektir.",
+    "bilgi": "Sodyum Tetraborat (Boraks): Havyar dışında gıda kullanımı yasaktır, toksiktir.",
     "risk": 3,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-tetraborate"
   },
@@ -350,52 +540,257 @@
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Carbon-dioxide"
   },
   "e296": {
-    "bilgi": "Malik asit: Elma ve birçok meyvede doğal bulunan, ekşilik verici bir asittir. Güvenlidir.",
+    "bilgi": "Malik Asit: Elma asidi. Ekşilik verir, metabolizmaya uygundur.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Malic-acid"
   },
   "e297": {
-    "bilgi": "Fumarik asit: Doğal bir asitlik düzenleyicidir. Metabolizmanın parçasıdır, güvenlidir.",
+    "bilgi": "Fumarik Asit: Doğal asitlik düzenleyicidir. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://pubchem.ncbi.nlm.nih.gov/compound/Fumaric-acid"
   },
   "e300": {
-    "bilgi": "Askorbik Asit: Bildiğimiz C Vitaminidir. Gıdanın kararmasını engeller, zararsızdır.",
+    "bilgi": "Askorbik Asit (E300): Bildiğimiz C Vitaminidir. Gıdanın kararmasını engeller, zararsızdır.",
     "risk": 1,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4087"
   },
+  "e301": {
+    "bilgi": "Sodyum Askorbat: C vitamininin sodyum tuzudur. Antioksidandır, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=301"
+  },
+  "e302": {
+    "bilgi": "Kalsiyum Askorbat: C vitamininin kalsiyum tuzudur. Mideyi asidik formdan daha az yorar, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=302"
+  },
+  "e303": {
+    "bilgi": "Potasyum Askorbat: C vitamininin potasyum tuzudur. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=303"
+  },
+  "e304": {
+    "bilgi": "Askorbil Palmitat: C vitamininin yağda çözünen formudur. Yağların bozulmasını önler, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=304"
+  },
+  "e305": {
+    "bilgi": "Askorbil Stearat: C vitamininin yağ asidi esteridir. Antioksidan olarak kullanılır.",
+    "risk": 0,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=305"
+  },
+  "e306": {
+    "bilgi": "Tokoferol (E Vitamini) Ekstraktı: Doğal E vitaminidir. Güçlü bir antioksidandır, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=306"
+  },
+  "e307": {
+    "bilgi": "Alfa-tokoferol: Sentetik veya doğal E vitaminidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=307"
+  },
+  "e308": {
+    "bilgi": "Gama-tokoferol: E vitamini türevidir. Antioksidan olarak kullanılır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=308"
+  },
+  "e309": {
+    "bilgi": "Delta-tokoferol: E vitamini türevidir. Antioksidan olarak kullanılır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=309"
+  },
+  "e310": {
+    "bilgi": "Propil Gallat: Yağlarda kullanılan sentetik antioksidandır. Bazı kişilerde alerjik reaksiyon yapabilir, bebek gıdalarında yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=310"
+  },
+  "e311": {
+    "bilgi": "Oktil Gallat: Sentetik antioksidandır. Alerjik potansiyeli vardır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=311"
+  },
+  "e312": {
+    "bilgi": "Dodesil Gallat: Sentetik antioksidandır. Hassas kişilerde reaksiyon riski taşır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=312"
+  },
+  "e313": {
+    "bilgi": "Onaylı bir gıda katkı maddesi kodu değildir.",
+    "risk": 0,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/index.html"
+  },
+  "e314": {
+    "bilgi": "Guaiac Reçinesi: Nadir kullanılan bir antioksidandır. Güncel listelerde pek yer almaz.",
+    "risk": 0,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/index.html"
+  },
+  "e315": {
+    "bilgi": "Eritorbik Asit: C vitamininin izomeridir ancak vitamin değeri yoktur. Etlerin rengini korumak için kullanılır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=315"
+  },
+  "e316": {
+    "bilgi": "Sodyum Eritorbat: Et ürünlerinde (sosis vb.) renk koruyucu ve antioksidan olarak kullanılır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=316"
+  },
   "e319": {
-    "bilgi": "Tersiyer Bütil Hidrokinon (TBHQ): Sentetik antioksidan. Bağışıklık sistemini baskılayabileceği ve DNA hasarına yol açabileceği şüphesiyle bazı ülkelerde yasaktır.",
+    "bilgi": "TBHQ (Tersiyer Bütil Hidrokinon): Yağların bozulmasını önleyen sentetik antioksidandır. DNA hasarı şüphesi nedeniyle bazı ülkelerde yasaktır.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/84"
   },
+  "e320": {
+    "bilgi": "BHA (Bütillendirilmiş Hidroksianisol): Sentetik antioksidandır. Hayvan deneylerinde kanserojen şüphesi yaratmıştır, tartışmalıdır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=320"
+  },
+  "e321": {
+    "bilgi": "BHT (Bütillendirilmiş Hidroksitoluen): BHA benzeri sentetik antioksidandır. Yüksek dozlarda toksik etkileri nedeniyle kullanımı kısıtlıdır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=321"
+  },
   "e322": {
-    "bilgi": "Lesitin: Soya veya ayçiçeğinden elde edilen doğal emülgatördür. Yağ ve suyun ayrışmasını engeller, genelde güvenlidir.",
+    "bilgi": "Lesitin: Genelde soya veya ayçiçeğinden elde edilir. Yağ ve suyun ayrışmasını engeller, genelde güvenlidir.",
     "risk": 1,
     "kaynak": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1477"
   },
   "e330": {
-    "bilgi": "Sitrik Asit: Limon tuzu. Doğal koruyucu ve aroma vericidir. Günlük tüketimde bir sorun teşkil etmez.",
+    "bilgi": "Sitrik Asit: Limon tuzu olarak bilinir. Ekşilik verir ve doğal bir koruyucudur. Günlük tüketimde her hangi bir sorun teşkil etmez.",
     "risk": 1,
     "kaynak": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3594"
   },
-  "e334": {
-    "bilgi": "Tartarik Asit: Üzümde doğal bulunan asitlik düzenleyicidir. Güvenli kabul edilir.",
+  "e331": {
+    "bilgi": "Sodyum Sitrat: Sitrik asidin tuzudur. İçeceklerde ekşiliği dengeler, güvenlidir.",
     "risk": 1,
-    "kaynak": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1099"
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=331"
+  },
+  "e332": {
+    "bilgi": "Potasyum Sitrat: Asitlik düzenleyici ve potasyum kaynağıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=332"
+  },
+  "e333": {
+    "bilgi": "Kalsiyum Sitrat: Asitlik düzenleyici ve kalsiyum kaynağıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=333"
+  },
+  "e334": {
+    "bilgi": "Tartarik Asit: Üzümde doğal bulunan asittir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=334"
+  },
+  "e335": {
+    "bilgi": "Sodyum Tartarat: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=335"
+  },
+  "e336": {
+    "bilgi": "Potasyum Tartarat (Krem Tartar): Pastacılıkta kabartma yardımcı maddesi olarak kullanılır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=336"
+  },
+  "e337": {
+    "bilgi": "Sodyum Potasyum Tartarat (Rochelle Tuzu): Asitlik düzenleyici ve stabilize edicidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=337"
   },
   "e338": {
     "bilgi": "Fosforik Asit: Kolalı içeceklerde bulunur. Kemik yoğunluğunu azaltabilir ve böbrek taşı riskini artırabilir.",
     "risk": 3,
     "kaynak": "https://www.healthline.com/nutrition/phosphoric-acid"
   },
+  "e339": {
+    "bilgi": "Sodyum Fosfatlar: Emülgatör ve asitlik düzenleyicidir. Yüksek fosfor alımı böbrekler için riskli olabilir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=339"
+  },
+  "e340": {
+    "bilgi": "Potasyum Fosfatlar: Kahve kremalarında topaklanmayı önler. Fosfat dengesine dikkat edilmelidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=340"
+  },
+  "e341": {
+    "bilgi": "Kalsiyum Fosfatlar: Kabartma tozu bileşeni ve kalsiyum kaynağıdır. Güvenli kabul edilir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=341"
+  },
+  "e342": {
+    "bilgi": "Amonyum Fosfatlar: Maya besini olarak kullanılır. Güvenlidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=342"
+  },
+  "e343": {
+    "bilgi": "Magnezyum Fosfatlar: Topaklanma önleyici ve magnezyum kaynağıdır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=343"
+  },
+  "e350": {
+    "bilgi": "Sodyum Malat: Malik asidin tuzudur. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=350"
+  },
+  "e351": {
+    "bilgi": "Potasyum Malat: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=351"
+  },
+  "e352": {
+    "bilgi": "Kalsiyum Malat: Asitlik düzenleyici ve kalsiyum kaynağıdır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=352"
+  },
+  "e353": {
+    "bilgi": "Metatartarik Asit: Şaraplarda tortu oluşumunu önler. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=353"
+  },
+  "e354": {
+    "bilgi": "Kalsiyum Tartarat: Asitlik düzenleyicidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=354"
+  },
   "e355": {
     "bilgi": "Adipik Asit: Ekşilik düzenleyici ve jel yapısına destek için kullanılabilir. İzinli kullanımda genelde güvenlidir.",
     "risk": 1,
     "kaynak": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1009"
   },
+  "e356": {
+    "bilgi": "Sodyum Adipat: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=356"
+  },
+  "e357": {
+    "bilgi": "Potasyum Adipat: Asitlik düzenleyicidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=357"
+  },
+  "e363": {
+    "bilgi": "Süksinik Asit: Doğal asitlik düzenleyicidir. Metabolizmanın parçasıdır, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=363"
+  },
+  "e380": {
+    "bilgi": "Triamonyum Sitrat: Peynirlerde emülgatör olarak kullanılır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=380"
+  },
+  "e385": {
+    "bilgi": "Kalsiyum Disodyum EDTA: Konservelerde metal iyonlarını bağlayarak renk bozulmasını önler. Yüksek dozlarda mineral emilimini bozabilir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=385"
+  },
+  "e392": {
+    "bilgi": "Biberiye Ekstraktı: Doğal antioksidandır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=392"
+  },
+  "e399": {
+    "bilgi": "Kalsiyum Laktobiyonat: Kıvam verici ve stabilizatördür.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=399"
+  },
   "e401": {
-    "bilgi": "Sodyum Aljinat: Deniz yosunundan elde edilir. Güvenlidir ancak bebek mamalarında kullanımı kısıtlıdır.",
+    "bilgi": "Sodyum Aljinat: Deniz yosunundan elde edilir. Güvenlidir ancak mineral emilimini etkileyebileceğinden bebek mamalarında kullanımı kısıtlıdır.",
     "risk": 1,
     "kaynak": "https://science.food.gov.uk/article/121793-safety-assessment-on-product-e-401-sodium-alginate-used-as-a-surface-treatment-in-entire-fruits-and-vegetables-rp290"
   },
@@ -465,7 +860,7 @@
     "kaynak": "https://www.law.cornell.edu/cfr/text/21/172.846"
   },
   "e476": {
-    "bilgi": "Poligliserol Polirisinoleat (PGPR): Çikolatada maliyet düşürücü emülgatördür. Hayvan deneylerinde karaciğer etkileri görülmüştür, üretim safsızlıkları riski taşır.",
+    "bilgi": "Poligliserol Polirisinoleat (PGPR): Çikolatada maliyet düşürücü emülgatördür. Hayvan deneylerinde karaciğer etkileri görülmüştür.",
     "risk": 2,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
   },
@@ -484,18 +879,198 @@
     "risk": 1,
     "kaynak": "http://www.food-info.net/tr/e/e500.htm"
   },
+  "e501": {
+    "bilgi": "Potasyum Karbonatlar: Asitlik düzenleyici ve kabartıcıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=501"
+  },
+  "e503": {
+    "bilgi": "Amonyum Karbonatlar: Bisküvilerde kabartıcı olarak kullanılır. Uçucudur, üründe kalmaz.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=503"
+  },
+  "e504": {
+    "bilgi": "Magnezyum Karbonat: Topaklanma önleyici ve asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=504"
+  },
+  "e507": {
+    "bilgi": "Hidroklorik Asit: Asitlik düzenleyici olarak kullanılır. Üründe nötralize olur, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=507"
+  },
+  "e508": {
+    "bilgi": "Potasyum Klorür: Düşük sodyumlu tuzlarda kullanılır. Acımsı bir tadı vardır, güvenlidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=508"
+  },
   "e509": {
     "bilgi": "Kalsiyum Klorür: Peynir ve turşularda sertleştirici olarak kullanılır. Güvenlidir.",
     "risk": 1,
     "kaynak": "https://www.fda.gov/files/food/published/GRAS-Notice-000634--Calcium-chloride.pdf"
+  },
+  "e510": {
+    "bilgi": "Amonyum Klorür: Meyan kökü şekerlerinde aroma vericidir. Fazlası toksik olabilir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=510"
+  },
+  "e511": {
+    "bilgi": "Magnezyum Klorür: Tofu yapımında pıhtılaştırıcı olarak kullanılır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=511"
+  },
+  "e512": {
+    "bilgi": "Kalay Klorür: Renk koruyucudur. AB'de kullanımı çok kısıtlıdır veya yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=512"
+  },
+  "e513": {
+    "bilgi": "Sülfürik Asit: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=513"
+  },
+  "e514": {
+    "bilgi": "Sodyum Sülfat: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=514"
+  },
+  "e515": {
+    "bilgi": "Potasyum Sülfat: Tuz ikamesi olarak kullanılabilir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=515"
+  },
+  "e516": {
+    "bilgi": "Kalsiyum Sülfat (Alçıtaşı): Ekmek ve peynirde sertleştirici ve kalsiyum kaynağıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=516"
+  },
+  "e517": {
+    "bilgi": "Amonyum Sülfat: Ekmek mayası besini olarak kullanılır. Güvenlidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=517"
+  },
+  "e518": {
+    "bilgi": "Magnezyum Sülfat (İngiliz Tuzu): Sertleştirici olarak kullanılır. Yüksek dozda laksatif (ishal yapıcı) etkisi vardır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=518"
+  },
+  "e519": {
+    "bilgi": "Bakır Sülfat: Koruyucudur. AB'de gıdalarda kullanımı yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=519"
+  },
+  "e520": {
+    "bilgi": "Alüminyum Sülfat: Sertleştiricidir. Alüminyum birikimi riski nedeniyle nörotoksik endişeler taşır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/411"
+  },
+  "e521": {
+    "bilgi": "Alüminyum Sodyum Sülfat: Kabartıcıdır. Alüminyum içeriği nedeniyle risklidir.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=521"
+  },
+  "e522": {
+    "bilgi": "Alüminyum Potasyum Sülfat: Turşularda sertleştirici (şap). Alüminyum riski taşır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=522"
+  },
+  "e523": {
+    "bilgi": "Alüminyum Amonyum Sülfat: Kabartıcıdır. Alüminyum riski taşır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=523"
+  },
+  "e524": {
+    "bilgi": "Sodyum Hidroksit: Asitlik düzenleyici (kostik). Zeytinlerin acılığını almada ve çikolata işlemede kullanılır. Son üründe güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=524"
+  },
+  "e525": {
+    "bilgi": "Potasyum Hidroksit: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=525"
+  },
+  "e526": {
+    "bilgi": "Kalsiyum Hidroksit (Sönmüş Kireç): Bebek mamalarında ve turşularda kullanılır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=526"
+  },
+  "e527": {
+    "bilgi": "Amonyum Hidroksit: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=527"
+  },
+  "e528": {
+    "bilgi": "Magnezyum Hidroksit: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=528"
+  },
+  "e529": {
+    "bilgi": "Kalsiyum Oksit: Hamur işlemde kullanılır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=529"
+  },
+  "e530": {
+    "bilgi": "Magnezyum Oksit: Topaklanma önleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=530"
+  },
+  "e535": {
+    "bilgi": "Sodyum Ferrosiyanür: Tuzda topaklanmayı önler. İsmi korkutucu olsa da gıda dozlarında siyanür zehirlenmesi yapmaz, güvenlidir.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2077"
+  },
+  "e536": {
+    "bilgi": "Potasyum Ferrosiyanür: Tuzda topaklanmayı önler. Güvenli kabul edilir.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2077"
+  },
+  "e538": {
+    "bilgi": "Kalsiyum Ferrosiyanür: Tuzda topaklanmayı önler.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2077"
+  },
+  "e551": {
+    "bilgi": "Silikon Dioksit: Toz ürünlerde topaklanmayı önleyici (kumun ana maddesi). Bağırsaktan emilmez, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+  },
+  "e552": {
+    "bilgi": "Kalsiyum Silikat: Topaklanma önleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=552"
+  },
+  "e553a": {
+    "bilgi": "Magnezyum Silikat: Topaklanma önleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=553a"
+  },
+  "e553b": {
+    "bilgi": "Talk: Pirinç ve sakızlarda parlatıcı ve topaklanma önleyicidir. Asbest içermeyen saf formları güvenlidir.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/5090"
+  },
+  "e554": {
+    "bilgi": "Sodyum Alüminyum Silikat: Topaklanma önleyici. Alüminyum içeriği nedeniyle kullanımı kısıtlanmıştır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/411"
   },
   "e555": {
     "bilgi": "Potasyum Alüminyum Silikat: Gıda boyalarında taşıyıcıdır. Alüminyum birikimi riski nedeniyle EFSA güvenlik verilerini yetersiz bulmuştur.",
     "risk": 3,
     "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/6152"
   },
+  "e556": {
+    "bilgi": "Kalsiyum Alüminyum Silikat: Topaklanma önleyici. Alüminyum riski taşır.",
+    "risk": 3,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/411"
+  },
+  "e559": {
+    "bilgi": "Alüminyum Silikat (Kaolin): AB'de gıdalarda kullanımı yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=559"
+  },
   "e620": {
-    "bilgi": "Glutamik asit: Doğal bir amino asittir; lezzet arttırıcı ve tuz ikamesi olarak kullanılır.",
+    "bilgi": "Glutamik Asit: Doğal bir amino asittir; lezzet arttırıcı ve tuz ikamesi olarak kullanılır.",
     "risk": 2,
     "kaynak": "https://www.food-info.net/uk/e/e620.htm"
   },
@@ -505,42 +1080,192 @@
     "kaynak": "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg"
   },
   "e622": {
-    "bilgi": "Monopotasyum glutamat: MSG'ye alternatiftir, düşük sodyumlu ürünlerde tercih edilir. Tat güçlendiricidir.",
+    "bilgi": "Monopotasyum Glutamat: Düşük sodyumlu diyetler için MSG alternatifidir.",
     "risk": 2,
     "kaynak": "https://www.food-info.net/uk/e/e622.htm"
   },
   "e623": {
-    "bilgi": "Kalsiyum diglutamat: Glutamatın kalsiyum tuzudur, düşük sodyumlu ürünlerde tuz yerine tat verici olarak kullanılır.",
+    "bilgi": "Kalsiyum Diglutamat: Glutamatın kalsiyum tuzudur. Lezzet artırıcıdır.",
     "risk": 2,
     "kaynak": "https://www.food-info.net/uk/e/e623.htm"
   },
   "e626": {
-    "bilgi": "Guanilik asit: Doğal nükleotidlerden elde edilen lezzet güçlendirici. Umami tadı verir.",
+    "bilgi": "Guanilik Asit: Doğal nükleotidlerden elde edilen lezzet güçlendirici. Umami tadı verir.",
     "risk": 2,
     "kaynak": "https://www.food-info.net/uk/e/e626.htm"
   },
   "e630": {
-    "bilgi": "İnosinik asit: Et ve balıkta doğal bulunan umami tadını güçlendiren katkı maddesidir.",
+    "bilgi": "İnosinik Asit: Et ve balıkta doğal bulunan umami tadını güçlendiren katkı maddesidir.",
     "risk": 2,
     "kaynak": "https://www.food-info.net/uk/e/e630.htm"
   },
   "e637": {
-    "bilgi": "Etil maltol: Karamel/şeker benzeri koku ve tat veren sentetik aroma maddesidir.",
+    "bilgi": "Etil Maltol: Karamel/şeker benzeri koku ve tat veren sentetik aroma maddesidir.",
     "risk": 1,
     "kaynak": "https://echa.europa.eu/registration-dossier/-/registered-dossier/22549/7/2/1"
   },
   "e900": {
-    "bilgi": "Dimetilpolisiloksan: Silikon bazlı köpük kesici. Bağırsaktan emilmeden atılır, toksik etkisi yoktur.",
+    "bilgi": "Dimetilpolisiloksan: Silikon bazlı köpük kesici. Kızartma yağlarında kullanılır, güvenlidir.",
     "risk": 1,
-    "kaynak": "https://foodadditives.net/antifoaming-agent/dimethylpolysiloxane/"
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=900"
+  },
+  "e901": {
+    "bilgi": "Beyaz Balmumu: Arı ürünüdür. Parlatıcı ve kaplama maddesi olarak kullanılır, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=901"
+  },
+  "e902": {
+    "bilgi": "Kandelilla Mumu: Bitkisel kaynaklı doğal kaplama maddesidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=902"
+  },
+  "e903": {
+    "bilgi": "Karnauba Mumu: Palmiye yaprağından elde edilen doğal parlatıcıdır (sakız, draje). Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=903"
   },
   "e904": {
     "bilgi": "Şellak: Böcek salgısından elde edilen parlatıcı (drajeler, şekerlemeler). Güvenlidir ancak vegan değildir.",
     "risk": 1,
-    "kaynak": "https://foodcom.pl/en/term-e/e904/"
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=904"
+  },
+  "e905": {
+    "bilgi": "Mikrokristalin Mum: Petrol türevi kaplama maddesidir. Güvenlik limitleri vardır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=905"
+  },
+  "e906": {
+    "bilgi": "Benzoin Reçinesi: Kaplama maddesi ve aroma koruyucudur.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=906"
+  },
+  "e907": {
+    "bilgi": "Hidrojenlenmiş Poliolefin: Kaplama maddesidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=907"
+  },
+  "e908": {
+    "bilgi": "Pirinç Kepeği Mumu: Doğal kaplama maddesidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=908"
+  },
+  "e909": {
+    "bilgi": "Spermaseti Mumu: Balina yağından elde edilir. Günümüzde kullanımı terk edilmiştir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=909"
+  },
+  "e910": {
+    "bilgi": "L-Sistein: Hamur geliştirici amino asittir. İnsan saçı veya ördek tüyünden elde edilebilir, kaynağı etik tartışmalıdır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=910"
+  },
+  "e912": {
+    "bilgi": "Montan Asidi Esterleri: Meyve kabuklarında parlatıcı olarak kullanılır. Kabuğu yenmeyen meyvelerde izinlidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=912"
+  },
+  "e914": {
+    "bilgi": "Oksitlenmiş Polietilen Mumu: Meyve kaplamasında kullanılır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=914"
+  },
+  "e920": {
+    "bilgi": "L-Sistein Hidroklorür: Un işlem maddesidir. Hamurun elastikiyetini artırır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=920"
+  },
+  "e921": {
+    "bilgi": "L-Sistein Monohidrat: Un işlem maddesidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=921"
+  },
+  "e922": {
+    "bilgi": "Potasyum Bromat: Unu beyazlatır ve kabartır. Kanserojen olduğu için AB ve birçok ülkede yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=922"
+  },
+  "e923": {
+    "bilgi": "Amonyum Persülfat: Un beyazlatıcıdır. Ciddi alerjik reaksiyonlara neden olabilir, çoğu yerde yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=923"
+  },
+  "e924a": {
+    "bilgi": "Potasyum Bromat: Kanserojen riski nedeniyle yasaklı un katkısıdır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=924a"
+  },
+  "e924b": {
+    "bilgi": "Kalsiyum Bromat: Yasaklı un katkı maddesidir.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=924b"
+  },
+  "e925": {
+    "bilgi": "Klor: Un beyazlatıcıdır. AB'de kullanımı yasaktır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=925"
+  },
+  "e926": {
+    "bilgi": "Klor Dioksit: Un beyazlatıcıdır. Toksik yan ürün riski vardır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=926"
+  },
+  "e927a": {
+    "bilgi": "Azodikarbonamid: Yoga matı kimyasalı olarak da bilinir. Un beyazlatıcıdır, astım riski nedeniyle AB'de yasaktır.",
+    "risk": 3,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=927a"
+  },
+  "e927b": {
+    "bilgi": "Karbamid (Üre): Sakızlarda doku verici olarak kullanılır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=927b"
+  },
+  "e938": {
+    "bilgi": "Argon: Koruyucu gazdır. Oksidasyonu önler, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=938"
+  },
+  "e939": {
+    "bilgi": "Helyum: Paketleme gazıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=939"
+  },
+  "e941": {
+    "bilgi": "Azot: Paketleme gazıdır (cips paketlerindeki hava). Ürünü taze tutar, güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=941"
+  },
+  "e942": {
+    "bilgi": "Diazot Monoksit (Gülme Gazı): Krema tüplerinde itici gazdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=942"
+  },
+  "e943a": {
+    "bilgi": "Bütan: Sprey yağlarda itici gazdır. Petrol türevidir.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=943a"
+  },
+  "e943b": {
+    "bilgi": "İzobütan: İtici gazdır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=943b"
+  },
+  "e944": {
+    "bilgi": "Propan: İtici gazdır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=944"
+  },
+  "e948": {
+    "bilgi": "Oksijen: Paketleme gazıdır. Kırmızı etin rengini korumak için kullanılır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=948"
+  },
+  "e949": {
+    "bilgi": "Hidrojen: İşleme gazıdır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=949"
   },
   "e950": {
-    "bilgi": "Asesülfam K: Isıya dayanıklı yapay tatlandırıcı. Bazı çalışmalar yüksek tüketiminin kanser riski ile ilişkili olabileceğini öne sürmektedir.",
+    "bilgi": "Asesülfam K: Isıya dayanıklı yapay tatlandırıcı. Yüksek tüketimi kanser riski ile ilişkili olabileceği yönünde araştırmalar vardır.",
     "risk": 3,
     "kaynak": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8946744/"
   },
@@ -550,24 +1275,159 @@
     "kaynak": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results"
   },
   "e952": {
-    "bilgi": "Sodyum Siklamat: Yapay tatlandırıcı. Mesane kanseri şüphesiyle ABD'de yasaktır, Avrupa'da serbesttir.",
+    "bilgi": "Sodyum Siklamat: Yapay tatlandırıcı. Kanser şüphesiyle ABD'de yasaktır, Avrupa'da serbesttir.",
     "risk": 3,
-    "kaynak": "https://www.foodstandards.gov.au/sites/default/files/food-standards-code/proposals/Documents/P287_FAR_Cyclamate_Review_FINAL.doc"
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2076"
+  },
+  "e953": {
+    "bilgi": "İzomalt: Şeker alkolüdür. Düşük kalorilidir, fazlası gaz yapar.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=953"
+  },
+  "e954": {
+    "bilgi": "Sakkarin: En eski yapay tatlandırıcıdır. Geçmişte mesane kanseriyle ilişkilendirilmiş olsa da güncel veriler düşük dozda güvenli olduğunu söyler.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2075"
   },
   "e955": {
-    "bilgi": "Sukraloz: Şekerden üretilen kalorisiz tatlandırıcı. Bazı kişilerde şişkinlik ve bağırsak hassasiyeti yapabilir.",
+    "bilgi": "Sukraloz: Şekerden üretilen kalorisiz tatlandırıcı. Bazı kişilerde bağırsak hassasiyeti yapabilir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/4368"
+  },
+  "e957": {
+    "bilgi": "Thaumatin: Doğal protein bazlı çok güçlü tatlandırıcıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=957"
+  },
+  "e959": {
+    "bilgi": "Neohesperidin DC: Turunçgillerden elde edilen yoğun tatlandırıcıdır.",
     "risk": 2,
-    "kaynak": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.831"
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/462"
+  },
+  "e960": {
+    "bilgi": "Steviol Glikozitler (Stevia): Doğal bitkisel tatlandırıcıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/1537"
+  },
+  "e961": {
+    "bilgi": "Neotam: Aspartam türevi çok güçlü tatlandırıcıdır. PKU hastaları için daha güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/581"
+  },
+  "e962": {
+    "bilgi": "Aspartam-Asesülfam Tuzu: İki tatlandırıcının karışımıdır.",
+    "risk": 2,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/2010"
   },
   "e965": {
     "bilgi": "Maltitol: Şeker alkolü. Kan şekerini diğer poliollerden daha fazla yükseltir ve gaz/ishal yapabilir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=965"
+  },
+  "e966": {
+    "bilgi": "Laktitol: Laktozdan üretilen şeker alkolüdür. Laksatif etkisi vardır.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=966"
+  },
+  "e967": {
+    "bilgi": "Ksilitol: Diş dostu şeker alkolüdür. Köpekler için zehirlidir, insanlarda fazlası ishal yapar.",
     "risk": 2,
-    "kaynak": "https://draxe.com/nutrition/maltitol/"
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=967"
   },
   "e968": {
     "bilgi": "Eritritol: Doğal şeker alkolü. Yeni araştırmalar, kan pıhtılaşmasını artırarak kalp krizi riskini yükseltebileceğini göstermiştir.",
     "risk": 3,
     "kaynak": "https://www.ahajournals.org/doi/10.1161/ATVBAHA.124.321019"
+  },
+  "e969": {
+    "bilgi": "Advantame: Aspartam türevi yeni nesil tatlandırıcıdır.",
+    "risk": 1,
+    "kaynak": "https://www.efsa.europa.eu/en/efsajournal/pub/3751"
+  },
+  "e970": {
+    "bilgi": "Sodyum Karbonat (E970 - FAO kodlaması): Standart E500'dür. Kabartıcı ve asitlik düzenleyicidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=970"
+  },
+  "e971": {
+    "bilgi": "Potasyum Karbonat (E971 - FAO kodlaması): Standart E501'dir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=971"
+  },
+  "e972": {
+    "bilgi": "Kalsiyum Karbonat (E972 - FAO kodlaması): Standart E170'tir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=972"
+  },
+  "e973": {
+    "bilgi": "Sodyum Bikarbonat (E973 - FAO kodlaması): Standart E500ii'dir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=973"
+  },
+  "e974": {
+    "bilgi": "Potasyum Bikarbonat (E974 - FAO kodlaması): Asitlik düzenleyicidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=974"
+  },
+  "e975": {
+    "bilgi": "Kalsiyum Bikarbonat: Genellikle suda çözünmüş halde bulunur.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=975"
+  },
+  "e976": {
+    "bilgi": "Natrium Glutamat (E976 - FAO kodlaması): MSG'nin bir formudur, benzer hassasiyet riskleri taşır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=976"
+  },
+  "e977": {
+    "bilgi": "Sodyum Glutamat (E977 - FAO kodlaması): MSG ile aynıdır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=977"
+  },
+  "e978": {
+    "bilgi": "Kalsiyum Glutamat (E978 - FAO kodlaması): Lezzet artırıcıdır.",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=978"
+  },
+  "e979": {
+    "bilgi": "Sodyum Klorür (E979 - FAO kodlaması): Sofra tuzudur. Aşırı tüketimi tansiyon riskidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=979"
+  },
+  "e981": {
+    "bilgi": "Sodyum Laktat: Asitlik düzenleyici ve koruyucudur. Et ürünlerinde güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=981"
+  },
+  "e982": {
+    "bilgi": "Potasyum Laktat: Asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=982"
+  },
+  "e983": {
+    "bilgi": "Kalsiyum Laktat: Kalsiyum kaynağı ve sertleştiricidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=983"
+  },
+  "e984": {
+    "bilgi": "Demir Laktat: Demir takviyesi ve renk stabilizatörüdür (zeytinlerde).",
+    "risk": 2,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=984"
+  },
+  "e985": {
+    "bilgi": "Sodyum Glukonat: Asitlik düzenleyici ve şelatlayıcıdır. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=985"
+  },
+  "e986": {
+    "bilgi": "Potasyum Glukonat: Asitlik düzenleyicidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=986"
+  },
+  "e987": {
+    "bilgi": "Kalsiyum Glukonat: Kalsiyum kaynağı ve asitlik düzenleyicidir. Güvenlidir.",
+    "risk": 1,
+    "kaynak": "https://www.fao.org/gsfaonline/additives/details.html?id=987"
   },
   "glikoz şurubu": {
     "bilgi": "Mısır veya buğday nişastasından üretilen sıvı şeker. Kan şekerini sofra şekerinden hızlı yükseltir, metabolik yük oluşturur.",
@@ -681,7 +1541,7 @@
   },
   "sodyum bikarbonat": {
     "bilgi": "Sodyum bikarbonat (Karbonat): Kabartıcıdır, güvenlidir. Yüksek tüketim sodyum alımını artırır.",
-    "risk": 2,
+    "risk": 1,
     "kaynak": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1736"
   },
   "sodyum fosfat": {
