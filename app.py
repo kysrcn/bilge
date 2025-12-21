@@ -40,7 +40,7 @@ def analiz(barkod):
     url = f"https://world.openfoodfacts.org/api/v0/product/{barkod}.json"
     
     headers = {
-        'User-Agent': 'GidaDedektifi - OgrenciProjesi - Version 1.0'
+        'User-Agent': 'Bilge - OgrenciProjesi - Version 1.0'
     }
     
     try:
@@ -66,9 +66,6 @@ def analiz(barkod):
         # Hepsini birleştir (Analiz için kullanılan ham metin)
         ham_metin = (text_genel + " " + text_tr + " " + text_en + " " + text_de).lower()
         
-        # Görsel veriler
-        resim_url = urun.get('image_url', '') 
-        nutri_score = urun.get('nutriscore_grade', '').upper()
 
         # Sözlük taraması
         bulunanlar = []
@@ -94,10 +91,8 @@ def analiz(barkod):
                 })
         
         return jsonify({
-            "durum": "basarili",
+            "durum": "başarılı",
             "urun": urun_adi,
-            "resim": resim_url,
-            "puan": nutri_score,
             "analiz_sonucu": bulunanlar,
             "ham_icerik": ham_metin  # <-- DEĞİŞİKLİK BURADA: Artık kesmiyoruz, hepsini gönderiyoruz.
         })
