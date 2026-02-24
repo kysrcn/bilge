@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify
 import requests
-import json  # <--- YENİ EKLENEN: Json kütüphanesi
+import json
 import os
 import re
 
@@ -74,27 +74,33 @@ def analiz(barkod):
             
             if re.search(pattern, ham_metin):
                 
+                # YENİ DEĞİŞİKLİK: Burada JSON'dan gelen bilgileri çekiyoruz
                 if isinstance(deger, dict):
                     aciklama_metni = deger.get("bilgi", "Bilgi yok")
                     risk_puani = deger.get("risk", 0)
                     kaynak_linki = deger.get("kaynak", "")
+                    # BUNU EKLEDİK: json'dan riskli_gruplar listesini al, yoksa boş liste döndür
+                    hastaliklar = deger.get("riskli_gruplar", []) 
                 else:
                     aciklama_metni = deger
                     risk_puani = 0 
                     kaynak_linki = ""
+                    hastaliklar = [] # Eski tip sözlükse boş bırak
 
+                # YENİ DEĞİŞİKLİK: Bulunanlar listesine riskli_gruplar bilgisini de ekliyoruz
                 bulunanlar.append({
                     "madde": anahtar_kelime.upper(),
                     "bilgi": aciklama_metni,
                     "risk": risk_puani,
-                    "kaynak": kaynak_linki  # <--- Frontend'e gönderiyoruz
+                    "kaynak": kaynak_linki,
+                    "riskli_gruplar": hastaliklar  # <--- BİLGİYİ FRONTEND'E GÖNDERMEK İÇİN BURAYA EKLİYORUZ
                 })
         
         return jsonify({
             "durum": "başarılı",
             "urun": urun_adi,
             "analiz_sonucu": bulunanlar,
-            "ham_icerik": ham_metin  # <-- DEĞİŞİKLİK BURADA: Artık kesmiyoruz, hepsini gönderiyoruz.
+            "ham_icerik": ham_metin
         })
 
     except Exception as e:
