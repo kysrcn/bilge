@@ -16,6 +16,18 @@
     <div class="container" style="max-width: 600px;">
         <h2 class="mb-3">🦉<br>BİLGE<br>Barkod İçerik Listeleme<br>ve<br>Gıda Eğitmeni</h2>
         
+        <div class="alert alert-secondary text-start mb-3 shadow-sm border-0" style="border-radius: 10px;">
+            <p class="mb-2 fw-bold" style="font-size: 0.9rem;">⚕️ Sağlık Profilinizi Seçin:</p>
+            <div class="form-check form-switch form-check-inline">
+                <input class="form-check-input" type="checkbox" id="profil-diyabet">
+                <label class="form-check-label" for="profil-diyabet">Diyabet (Şeker)</label>
+            </div>
+            <div class="form-check form-switch form-check-inline">
+                <input class="form-check-input" type="checkbox" id="profil-tansiyon">
+                <label class="form-check-label" for="profil-tansiyon">Tansiyon</label>
+            </div>
+            <small class="d-block mt-2 text-muted" style="font-size: 0.75rem;">Seçiminize özel risk uyarıları alacaksınız.</small>
+        </div>
         <div class="card shadow-sm mb-4">
             <div class="card-body">
                 <div id="reader"></div>
@@ -72,7 +84,9 @@
                         
                         let renkSinifi = "border-primary"; 
                         let ikon = "ℹ️";
+                        let ozelUyariHTML = ""; // YENİ EKLENDİ: Kişiselleştirilmiş uyarılar için değişken
 
+                        // Standart Risk Renklendirmesi
                         if (item.risk === 3) {
                             renkSinifi = "border-danger bg-danger bg-opacity-10"; 
                             ikon = "⛔";
@@ -84,7 +98,25 @@
                             ikon = "✅";
                         }
 
-                        // KAYNAK BUTONU HTML'İ (Varsa oluştur, yoksa boş bırak)
+                        // YENİ EKLENDİ: KİŞİSELLEŞTİRİLMİŞ SAĞLIK UYARILARI MANTIĞI
+                        if (item.riskli_gruplar && item.riskli_gruplar.length > 0) {
+                            const diyabetSecili = document.getElementById('profil-diyabet').checked;
+                            const tansiyonSecili = document.getElementById('profil-tansiyon').checked;
+
+                            if (diyabetSecili && item.riskli_gruplar.includes("şeker")) {
+                                ozelUyariHTML += `<span class="badge bg-danger mt-2 me-1">🚨 DİYABET İÇİN RİSKLİ</span>`;
+                                renkSinifi = "border-danger bg-danger bg-opacity-25"; 
+                                ikon = "🚨"; 
+                            }
+                            
+                            if (tansiyonSecili && item.riskli_gruplar.includes("tansiyon")) {
+                                ozelUyariHTML += `<span class="badge bg-danger mt-2 me-1">🚨 TANSİYON İÇİN RİSKLİ</span>`;
+                                renkSinifi = "border-danger bg-danger bg-opacity-25";
+                                ikon = "🚨";
+                            }
+                        }
+
+                        // Kaynak Butonu
                         let kaynakButonu = "";
                         if (item.kaynak && item.kaynak !== "") {
                             kaynakButonu = `
@@ -96,7 +128,7 @@
                             `;
                         }
 
-                        // Kart HTML'ini birleştir
+                        // Kartı Birleştirme (ozelUyariHTML eklendi)
                         const kart = `
                             <div class="madde-karti border-start border-5 ${renkSinifi} p-3 mb-2 rounded shadow-sm bg-white">
                                 <div class="fw-bold text-dark">
@@ -105,6 +137,7 @@
                                 <div class="text-muted small mt-1">
                                     ${item.bilgi}
                                 </div>
+                                ${ozelUyariHTML}
                                 ${kaynakButonu} 
                             </div>
                         `;
@@ -132,7 +165,7 @@
                 barkodAnalizEt(kod);
             }
         }
-	    </script>
+    </script>
 <footer class="mt-5 mb-3 text-muted text-center" style="font-size: 0.8rem;">
     <p>
         Bu proje eğitim amaçlıdır.<br>
