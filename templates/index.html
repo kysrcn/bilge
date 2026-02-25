@@ -98,23 +98,31 @@
                             ikon = "✅";
                         }
 
-                        // YENİ EKLENDİ: KİŞİSELLEŞTİRİLMİŞ SAĞLIK UYARILARI MANTIĞI
-                        if (item.riskli_gruplar && item.riskli_gruplar.length > 0) {
-                            const diyabetSecili = document.getElementById('profil-diyabet').checked;
-                            const tansiyonSecili = document.getElementById('profil-tansiyon').checked;
+                        // YENİ EKLENDİ: SOMUT VERİLERE DAYALI BİLİMSEL UYARI METİNLERİ
+if (item.riskli_gruplar && item.riskli_gruplar.length > 0) {
+    const diyabetSecili = document.getElementById('profil-diyabet').checked;
+    const tansiyonSecili = document.getElementById('profil-tansiyon').checked;
 
-                            if (diyabetSecili && item.riskli_gruplar.includes("şeker")) {
-                                ozelUyariHTML += `<span class="badge bg-danger mt-2 me-1">🚨 DİYABET İÇİN RİSKLİ</span>`;
-                                renkSinifi = "border-danger bg-danger bg-opacity-25"; 
-                                ikon = "🚨"; 
-                            }
-                            
-                            if (tansiyonSecili && item.riskli_gruplar.includes("tansiyon")) {
-                                ozelUyariHTML += `<span class="badge bg-danger mt-2 me-1">🚨 TANSİYON İÇİN RİSKLİ</span>`;
-                                renkSinifi = "border-danger bg-danger bg-opacity-25";
-                                ikon = "🚨";
-                            }
-                        }
+    if (diyabetSecili && item.riskli_gruplar.includes("şeker")) {
+        ozelUyariHTML += `
+            <div class="alert alert-danger mt-2 p-2 mb-0 border-danger" style="font-size: 0.85rem; background-color: #fff3f3;">
+                <strong>🚨 Diyabet Uyarısı:</strong> Bu madde kan şekerini hızlı yükseltebilir. <br>
+                <i class="text-muted" style="font-size: 0.75rem;">💡 Bilgi: Dünya Sağlık Örgütü (WHO), günlük ilave şeker alımının ortalama <b>25-30 gramı (yaklaşık 6 çay kaşığı)</b> geçmemesini önermektedir. Lütfen ürünün besin değerleri tablosundaki şeker miktarına dikkat ediniz.</i>
+            </div>`;
+        renkSinifi = "border-danger"; 
+        ikon = "🩸"; 
+    }
+    
+    if (tansiyonSecili && item.riskli_gruplar.includes("tansiyon")) {
+        ozelUyariHTML += `
+            <div class="alert alert-danger mt-2 p-2 mb-0 border-danger" style="font-size: 0.85rem; background-color: #fff3f3;">
+                <strong>🚨 Tansiyon Uyarısı:</strong> Bu madde kan basıncını olumsuz etkileyebilir. <br>
+                <i class="text-muted" style="font-size: 0.75rem;">💡 Bilgi: Dünya Sağlık Örgütü (WHO), tansiyon kontrolü için günlük sodyum alımının <b>2.000 mg (yaklaşık 5 gram / 1 tatlı kaşığı tuz)</b> altında tutulmasını tavsiye eder. Porsiyon miktarınıza dikkat ediniz.</i>
+            </div>`;
+        renkSinifi = "border-danger";
+        ikon = "❤️";
+    }
+}
 
                         // Kaynak Butonu
                         let kaynakButonu = "";
